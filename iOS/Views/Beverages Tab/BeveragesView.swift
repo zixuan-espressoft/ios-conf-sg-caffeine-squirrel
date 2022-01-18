@@ -21,7 +21,7 @@ struct BeveragesView: View {
         ScrollView {
             VStack{
                 DailyBeverageInfoView(title: "Today's Beverages", highlight: todayBevCount)
-                BeveragesGrid(beverageStore: beverageStore).padding()
+                BeveragesGrid(beverageStore: beverageStore)
             }.padding()
             
         }
