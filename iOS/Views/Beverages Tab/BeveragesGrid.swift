@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct BeveragesGrid: View {
+    @ObservedObject
+    var beverageStore: BeverageStore
+    
     private let beverages: [Beverage] = Beverage.allCases
     
     
@@ -19,7 +22,12 @@ struct BeveragesGrid: View {
     var body: some View {
         LazyVGrid(columns: columns) {
             ForEach(beverages) { beverage in
-                BeveragesColumn(beverage: beverage)
+                Button {
+                    
+                } label: {
+                    BeveragesColumn(beverage: beverage)
+                }.buttonStyle(PrimaryButtonStyle())
+
             }
         }
     }
@@ -27,6 +35,6 @@ struct BeveragesGrid: View {
 
 struct BeveragesGrid_Previews: PreviewProvider {
     static var previews: some View {
-        BeveragesGrid()
+        BeveragesGrid(beverageStore: BeverageStore())
     }
 }

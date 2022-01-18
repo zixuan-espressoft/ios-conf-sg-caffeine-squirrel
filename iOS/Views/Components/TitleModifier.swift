@@ -11,7 +11,7 @@ import SwiftUI
 struct TitleModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
-            .font(.title3.bold())
+            .font(.body.bold())
             .foregroundColor(Color.backgroundColor)
             .padding(.horizontal, 10)
             .padding(.vertical, 4)
