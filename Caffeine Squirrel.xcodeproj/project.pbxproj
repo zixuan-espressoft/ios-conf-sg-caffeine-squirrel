@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		448C059127964C5E005C89B4 /* AppTabNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448C059027964C5E005C89B4 /* AppTabNavigation.swift */; };
+		448C059327964EEC005C89B4 /* BeveragesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448C059227964EEC005C89B4 /* BeveragesView.swift */; };
+		448C059527964EF9005C89B4 /* BeveragesGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448C059427964EF9005C89B4 /* BeveragesGrid.swift */; };
+		448C059727965104005C89B4 /* BeveragesColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448C059627965104005C89B4 /* BeveragesColumn.swift */; };
+		448C0599279652FD005C89B4 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448C0598279652FD005C89B4 /* TitleModifier.swift */; };
+		448C059B27965605005C89B4 /* HighlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448C059A27965605005C89B4 /* HighlightView.swift */; };
+		448C059D27965674005C89B4 /* DetailsModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448C059C27965674005C89B4 /* DetailsModifier.swift */; };
+		448C059F27965715005C89B4 /* HighlightModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448C059E27965715005C89B4 /* HighlightModifier.swift */; };
+		448C05A1279658EF005C89B4 /* CardBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448C05A0279658EF005C89B4 /* CardBackground.swift */; };
 		F47068E02793C37D00D51DCC /* Caffeine_SquirrelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47068D02793C37B00D51DCC /* Caffeine_SquirrelApp.swift */; };
 		F47068E12793C37D00D51DCC /* Caffeine_SquirrelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47068D02793C37B00D51DCC /* Caffeine_SquirrelApp.swift */; };
 		F47068E22793C37D00D51DCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47068D12793C37B00D51DCC /* ContentView.swift */; };
@@ -38,6 +47,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		448C059027964C5E005C89B4 /* AppTabNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabNavigation.swift; sourceTree = "<group>"; };
+		448C059227964EEC005C89B4 /* BeveragesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeveragesView.swift; sourceTree = "<group>"; };
+		448C059427964EF9005C89B4 /* BeveragesGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeveragesGrid.swift; sourceTree = "<group>"; };
+		448C059627965104005C89B4 /* BeveragesColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeveragesColumn.swift; sourceTree = "<group>"; };
+		448C0598279652FD005C89B4 /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
+		448C059A27965605005C89B4 /* HighlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightView.swift; sourceTree = "<group>"; };
+		448C059C27965674005C89B4 /* DetailsModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsModifier.swift; sourceTree = "<group>"; };
+		448C059E27965715005C89B4 /* HighlightModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightModifier.swift; sourceTree = "<group>"; };
+		448C05A0279658EF005C89B4 /* CardBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBackground.swift; sourceTree = "<group>"; };
 		F47068D02793C37B00D51DCC /* Caffeine_SquirrelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caffeine_SquirrelApp.swift; sourceTree = "<group>"; };
 		F47068D12793C37B00D51DCC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F47068D72793C37D00D51DCC /* Caffeine Squirrel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Caffeine Squirrel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +151,10 @@
 		F47068EF2793C3C300D51DCC /* Beverages Tab */ = {
 			isa = PBXGroup;
 			children = (
+				448C059227964EEC005C89B4 /* BeveragesView.swift */,
+				448C059427964EF9005C89B4 /* BeveragesGrid.swift */,
+				448C059627965104005C89B4 /* BeveragesColumn.swift */,
+				448C059A27965605005C89B4 /* HighlightView.swift */,
 			);
 			path = "Beverages Tab";
 			sourceTree = "<group>";
@@ -150,6 +172,7 @@
 				F470691D2793CA7500D51DCC /* Components */,
 				F47068EF2793C3C300D51DCC /* Beverages Tab */,
 				F47068F02793C3D200D51DCC /* Insights Tab */,
+				448C059027964C5E005C89B4 /* AppTabNavigation.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -219,6 +242,10 @@
 		F470691D2793CA7500D51DCC /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				448C0598279652FD005C89B4 /* TitleModifier.swift */,
+				448C059C27965674005C89B4 /* DetailsModifier.swift */,
+				448C059E27965715005C89B4 /* HighlightModifier.swift */,
+				448C05A0279658EF005C89B4 /* CardBackground.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -339,16 +366,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				F470690C2793C60200D51DCC /* DailyBeverages.swift in Sources */,
+				448C059F27965715005C89B4 /* HighlightModifier.swift in Sources */,
 				F47069062793C51800D51DCC /* Beverage.swift in Sources */,
 				F47069162793C67B00D51DCC /* ChartValue.swift in Sources */,
+				448C059B27965605005C89B4 /* HighlightView.swift in Sources */,
+				448C059327964EEC005C89B4 /* BeveragesView.swift in Sources */,
 				F47068E22793C37D00D51DCC /* ContentView.swift in Sources */,
 				F47068FF2793C4B300D51DCC /* DoubleDecimalFormatter.swift in Sources */,
+				448C059127964C5E005C89B4 /* AppTabNavigation.swift in Sources */,
+				448C05A1279658EF005C89B4 /* CardBackground.swift in Sources */,
 				F47069022793C4B900D51DCC /* StylingHelpers.swift in Sources */,
 				F47068FC2793C4AC00D51DCC /* Colors.swift in Sources */,
 				F47069122793C63E00D51DCC /* Tab.swift in Sources */,
+				448C059D27965674005C89B4 /* DetailsModifier.swift in Sources */,
 				F47068E02793C37D00D51DCC /* Caffeine_SquirrelApp.swift in Sources */,
 				F470690F2793C61B00D51DCC /* BeverageStore.swift in Sources */,
+				448C059527964EF9005C89B4 /* BeveragesGrid.swift in Sources */,
+				448C059727965104005C89B4 /* BeveragesColumn.swift in Sources */,
 				F47069192793CA1900D51DCC /* RoundedCornerRectangle.swift in Sources */,
+				448C0599279652FD005C89B4 /* TitleModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,7 +536,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -529,7 +565,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

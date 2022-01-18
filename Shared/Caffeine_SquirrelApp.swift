@@ -11,7 +11,7 @@ import SwiftUI
 struct Caffeine_SquirrelApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppTabNavigation()
         }
     }
 }
